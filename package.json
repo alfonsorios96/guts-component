@@ -1,11 +1,11 @@
 {
   "name": "guts-component",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "author": "Alfonso Rios",
   "license": "MIT",
   "scripts": {
+    "build": "rollup -c rollup.config.js",
     "serve": "rollup -c rollup.config.js && python -m SimpleHTTPServer"
   },
   "dependencies": {
